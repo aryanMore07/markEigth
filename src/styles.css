@@ -1,0 +1,14 @@
+body {
+  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 1rem;
+  width: 50%;
+  font-size: 25px;
+}
