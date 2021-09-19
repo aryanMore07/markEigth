@@ -7,7 +7,12 @@ const emojiPhedia = {
   "🍪": "Cookie",
   "🤑": "Rich",
   "😬": " Nervous",
-  "😡": " Angry"
+  "😡": " Angry",
+  "🍉": "Watermelon",
+  "🥳": "Partying",
+  "🎂": "BirthDay Cake",
+  "😪": "Sleepy Face",
+  "🤠": "CowBoy",
 };
 
 export default function App() {
@@ -29,7 +34,7 @@ export default function App() {
       <h1>markEight | Emoji InterPreter</h1>
       <input onChange={emojiEventHandler} />
       <h2> {getEmoji} </h2>
-      <h2> 😊 | 😂 | 🍪 | 🤑 | 😬 | 😡 </h2>
+      <h2> 😊 | 😂 | 🍪 | 🤑 | 😬 | 😡 | 🍉 | 🥳 | 🎂 | 😪 | 🤠</h2>
     </div>
   );
 }
